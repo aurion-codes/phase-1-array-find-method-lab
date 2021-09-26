@@ -6,7 +6,12 @@
 
 ## Introduction
 
-We have learned that the `indexOf()` and `find()` methods can be used to locate
+We have learned that the 
+  //...
+]
+```
+
+Write a function called `superbowlWin()` i`indexOf()` and `find()` methods can be used to locate
 an element in an array, and that they return the **first** element for which the
 condition is met. (If you instead want a list of _all_ elements that meet a
 condition, you would use `Array.prototype.filter()` instead. We'll learn about
@@ -32,12 +37,7 @@ Superbowl. Our data looks like this:
 const record = [
   {year: "2018", result: "L"},
   {year: "2017", result: "W"},
-  {year: "2016", result: "N/A"}
-  //...
-]
-```
-
-Write a function called `superbowlWin()` in `index.js`:
+  {year: "2016", result: "N/A"}n `index.js`:
 
 * The function should receive 1 argument, an `Array` of JavaScript `Object`s
 * Each object has two properties: `year` and `result`
